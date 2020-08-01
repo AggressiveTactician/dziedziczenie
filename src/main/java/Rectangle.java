@@ -1,4 +1,4 @@
-public class Rectangle extends Figure {
+public class Rectangle extends Figure implements Datable {
     private int a;
     private int b;
     public Rectangle(String name, int a, int b) {

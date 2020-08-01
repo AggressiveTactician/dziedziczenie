@@ -1,4 +1,4 @@
-public class Square extends Figure {
+public class Square extends Figure implements Datable {
     private int a;
 
     public Square(String name, int a) {

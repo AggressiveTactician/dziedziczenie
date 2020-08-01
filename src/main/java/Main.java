@@ -8,5 +8,7 @@ public class Main {
         for (Figure figure : figures) {
             System.out.println(figure.getField());
         }
+        square.printActualDate();
+        rectangle.printActualDate();
     }
 }
