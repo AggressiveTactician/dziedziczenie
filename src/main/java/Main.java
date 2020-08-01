@@ -4,8 +4,8 @@ public class Main {
         System.out.println(square.getField());
         Rectangle rectangle = new Rectangle("Prostokąt", 5, 6);
         System.out.println(rectangle.getField());
-        Figure[] figures = {square, rectangle};
-        for (Figure figure : figures) {
+        IFieldable[] figures = {square, rectangle};
+        for (IFieldable figure : figures) {
             System.out.println(figure.getField());
         }
         square.printActualDate();

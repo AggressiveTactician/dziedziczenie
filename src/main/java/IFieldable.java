@@ -1,3 +1,3 @@
 public interface IFieldable {
-    String getName();
+    int getField();
 }
