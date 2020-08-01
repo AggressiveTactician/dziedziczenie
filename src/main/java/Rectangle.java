@@ -11,6 +11,10 @@ public class Rectangle extends Figure {
         return a * b;
     }
 
+    public String getName() {
+        return null;
+    }
+
     public int getA() {
         return a;
     }

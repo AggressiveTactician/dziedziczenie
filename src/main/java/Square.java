@@ -11,6 +11,10 @@ public class Square extends Figure {
         return a * a;
     }
 
+    public String getName() {
+        return null;
+    }
+
     public int getA() {
         return a;
     }

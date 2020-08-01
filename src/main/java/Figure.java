@@ -1,4 +1,4 @@
-public class Figure {
+public abstract class Figure {
     private String name;
 
     public Figure(String name) {
@@ -9,9 +9,7 @@ public class Figure {
         return 0;
     }
 
-    public String getName() {
-        return name;
-    }
+    public abstract String getName();
 
     public void setName(String name) {
         this.name = name;
