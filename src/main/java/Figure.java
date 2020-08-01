@@ -1,4 +1,4 @@
-public abstract class Figure {
+public abstract class Figure implements IFieldable {
     private String name;
 
     public Figure(String name) {
@@ -8,8 +8,6 @@ public abstract class Figure {
     public int getField() {
         return 0;
     }
-
-    public abstract String getName();
 
     public void setName(String name) {
         this.name = name;
