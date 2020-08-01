@@ -8,7 +8,7 @@ public class Rectangle extends Figure {
     }
     @Override
     public int getField() {
-        return a * a;
+        return a * b;
     }
 
     public int getA() {
